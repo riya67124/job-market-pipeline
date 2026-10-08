@@ -18,8 +18,8 @@ def run_query(sql, params=None):
         host=cfg("DB_HOST"),
         port=cfg("DB_PORT"),
         dbname=cfg("DB_NAME"),
-        user=cfg("DB_USER"),
-        password=cfg("DB_PASSWORD"),
+        user=cfg("READER_USER"),
+        password=cfg("READER_PASSWORD"),
         sslmode=cfg("DB_SSLMODE") or "require",
     )
     cur = conn.cursor()
