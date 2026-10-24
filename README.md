@@ -43,6 +43,15 @@ Python, pandas, requests, psycopg2, networkx, matplotlib, PostgreSQL (Supabase),
 ## Skill co-occurrence network
 
 ![Skill network](docs/skill_network.png)
+## Salary band analysis
+
+Most postings have no salary, so I tested whether salary bands (Low / Mid / High, split into equal thirds) can be predicted from job type, city, seniority keywords in the title, and detected skills.
+
+- **Data:** 53 postings with an employer-posted annual salary of at least 100,000 INR. Entries below that were removed as likely typos or monthly figures.
+- **Model:** logistic regression, evaluated with repeated 5-fold cross-validation.
+- **Result:** 43% accuracy (+/- 12%) against 38% for always guessing the most common band. The gap is within the noise, so there is no reliable signal yet.
+- **Weak spot:** the model catches Low and Mid roles better than High ones (2 of 15 High roles found).
+- **Decision:** I did not use the model to fill in missing salaries, because that would present guesses as data. The test will be re-run as the pipeline collects more salary data (`scripts/salary_model.py`).
 
 ## Known limitations
 
