@@ -1,0 +1,100 @@
+skill_1,skill_2,pair_count
+Azure,SQL,1
+Excel,Power BI,9
+Statistics,Tableau,3
+SQL,Tableau,9
+Data Visualization,Power BI,3
+Data Visualization,Spark,1
+Data Visualization,Excel,2
+Looker,Power BI,1
+Pandas,SQL,6
+DAX,Power BI,1
+Power BI,Statistics,1
+Looker,Statistics,1
+Communication,SQL,2
+Python,Tableau,8
+Hadoop,Java,1
+Excel,Spark,1
+Oracle,Python,1
+ETL,Looker,1
+Data Visualization,Stakeholder Management,1
+Data Visualization,Tableau,2
+JavaScript,Looker,1
+Java,Python,1
+Excel,SQL,10
+Communication,Power BI,2
+Python,Statistics,1
+Java,Oracle,1
+JavaScript,Tableau,1
+Communication,Problem Solving,2
+ETL,SQL,2
+Problem Solving,SQL,2
+Communication,Stakeholder Management,3
+Problem Solving,Statistics,1
+Data Visualization,MongoDB,1
+Communication,Jira,1
+Data Visualization,SQL,3
+DAX,SQL,1
+Azure,Data Visualization,1
+Data Visualization,Problem Solving,2
+Data Visualization,Statistics,2
+ETL,Tableau,1
+Power BI,Problem Solving,2
+DAX,Power Query,1
+Oracle,Spark,1
+Excel,Statistics,1
+Pandas,Python,6
+Data Warehousing,Hadoop,1
+Excel,Hadoop,1
+Data Visualization,Python,2
+MongoDB,Python,1
+AWS,PostgreSQL,1
+Pandas,Power BI,6
+JavaScript,Statistics,1
+Excel,Problem Solving,3
+Oracle,SQL,1
+Python,Spark,2
+Problem Solving,Tableau,1
+Data Warehousing,Oracle,1
+Power BI,Stakeholder Management,1
+Azure,Spark,1
+Spark,SQL,3
+JavaScript,SQL,1
+Power BI,Power Query,1
+Jira,SQL,1
+ETL,Python,1
+Power BI,Python,8
+Power BI,Tableau,9
+Data Warehousing,Spark,1
+Excel,Stakeholder Management,1
+Hadoop,Python,2
+Excel,Tableau,7
+Looker,SQL,2
+Looker,Tableau,1
+Java,SQL,1
+Excel,Jira,1
+Java,Spark,1
+Looker,Python,2
+Airflow,AWS,1
+JavaScript,Python,1
+Communication,Data Visualization,1
+Hadoop,Oracle,1
+Excel,Python,8
+Communication,Excel,2
+Excel,SPSS,1
+Python,SQL,16
+Hadoop,SQL,2
+MongoDB,SQL,1
+Excel,Pandas,6
+ETL,Statistics,1
+Data Warehousing,Java,1
+Pandas,Tableau,6
+Power BI,SQL,10
+SQL,Stakeholder Management,1
+Data Warehousing,Python,1
+Data Warehousing,SQL,1
+Power Query,SQL,1
+ETL,JavaScript,1
+Hadoop,Spark,2
+Problem Solving,Stakeholder Management,1
+SQL,Statistics,2
