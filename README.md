@@ -3,6 +3,19 @@
 An automated pipeline that tracks Data Analyst and Business Analyst job postings in India and turns them into skill-demand insights. It runs every day in the cloud with no manual work.
 
 **Live app:** https://job-market-pipeline-n4qyxxqdzzfsbtk5cckztg.streamlit.app/
+## Screenshots
+
+**Streamlit app**
+
+![Streamlit app](docs/streamlit_app.png)
+
+**Power BI dashboard (skill demand page)**
+
+![Power BI skill demand](docs/powerbi_skills.png)
+
+The Power BI file is `dashboard/job_market_dashboard.pbix`. It has 5 pages: skill demand, locations, skill network, pipeline health and salary insights. It reads CSV files exported by the `scripts/export_*.py` scripts, so it is refreshed by re-running those scripts and clicking Refresh in Power BI. A live PostgreSQL connection failed on a certificate error, so I used CSV exports instead.
+
+[Full dashboard as a PDF (all 5 pages)](dashboard/job_market_dashboard.pdf)
 
 ## What it does
 
